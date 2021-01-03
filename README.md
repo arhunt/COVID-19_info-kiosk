@@ -8,6 +8,8 @@
 ## Project Description
 This info-kiosk style website interprets the infection and death rates from COVID-19 through October 2020 in choropleth map, calendar heatmap, and line graph forms to compare across the US states.  The information is pulled from an API and into a SQL database, then called through Python, Flask, and JavaScript to the website.
 
+The project was part of the Fall 2020 University of Minnesota Data Analytics & Visualization Bootcamp and utilized environments created for that course.
+
 ## Tools Used
 > * _Postgres SQL_
 > * _Python_
