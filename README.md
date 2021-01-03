@@ -1,35 +1,23 @@
 # COVID-19-Tracker
 
-**Team**
+## Team
+> * [_Matt Mead_](https://www.linkedin.com/in/mattmeadmpls/)
+> * [_Emilio Bello_](https://www.linkedin.com/in/emilio-bello-09938760/)
+> * [_Allan Hunt_](https://www.linkedin.com/in/allanrhunt/)
 
-[_Matt Mead_](https://www.linkedin.com/in/mattmeadmpls/)
+## Project Description
+This info-kiosk style website interprets the infection and death rates from COVID-19 through October 2020 in choropleth map, calendar heatmap, and line graph forms to compare across the US states.  The information is pulled from an API and into a SQL database, then called through Python, Flask, and JavaScript to the website.
 
-[_Emilio Bello_](https://www.linkedin.com/in/emilio-bello-09938760/)
+## Tools Used
+> * _Postgres SQL_
+> * _Python_
+> * _Flask Server_
+> * _JavaScript_
+> * _HTML & CSS_
+> * _Leaflet_
+> * _Jupyter notebook_
 
-[_Allan Hunt_](https://www.linkedin.com/in/allanrhunt/)
-
-**Project Description** 
-
-US COVID-19 Tracker - COVID-19 is an ongoing pandemic that is affecting the entire world. The data behind this virus, which is vast, is an important tool we can use to fight against it. This site is a project created by a team of University of Minnesota Data Analytics & Visualization Boot Camp students to visualize the data and make it easier to understand.
-
-**Tools Used**
-
-_Postgres SQL_
-
-_Python_
-
-_Flask Server_
-
-_javaScript_
-
-_HTML & CSS_
-
-_Leaflet_
-
-_jupyter notebook_
-
-# DATA SETUP & SITE LAUNCH:
-
+## Instructions for Data Setup & Site Launch:
 1. Open config.py file, input your own Postgres password, and save.
 2. Open static/js/config.js file, input your own Leaflet password, and save.
 3. Launch Postgres server and create a database named "covid19-db"
@@ -37,13 +25,9 @@ _jupyter notebook_
 5. In a terminal window, type 'source activate NewPythonData' and then 'jupyter notebook'
 6. In the 'TimeSeries' jupyter notebook click Kernel > Restart & Run All
 7. Back in Postgres - go to covid19_db > Schemas > Tables
-
     a) Right click on covid_data > Properties > Columns > In the 'state' row turn Primary key? to Yes
-
     b) Right click on covid_hist > Properties > Columns > In the 'date' row turn Primary key? to Yes
-
-    c) Right click on covid_rolling > Properties > Columns > In the 'index' row turn Primary key? to Yes
-    
+    c) Right click on covid_rolling > Properties > Columns > In the 'index' row turn Primary key? to Yes   
 8. In a new Terminal Window, type 'source activate NewPythonData' and then 'python app.py' to run Flask Server
 9. In a Chrome Browser window, go to http://127.0.0.1:5000/index.html
 
