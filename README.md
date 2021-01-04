@@ -1,4 +1,4 @@
-# COVID-19-Tracker
+# COVID-19 Information Kiosk
 
 ### Description
 [See the attached presentation](/presentation/project-overview.pdf) for a view of all of the steps and tools used in the project.
