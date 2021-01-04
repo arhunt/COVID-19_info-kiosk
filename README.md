@@ -1,9 +1,11 @@
 # COVID-19-Tracker
 
 ### Description
-[See the attached presentation](https://github.com/arhunt/COVID-19_info-kiosk/blob/main/project-overview.pdf) for a view of all of the steps and tools used in the project.
+[See the attached presentation](/presentation/project-overview.pdf) for a view of all of the steps and tools used in the project.
 
 This info-kiosk style website interprets the infection and death rates from COVID-19 through October 2020 in choropleth map, calendar heatmap, and line graph forms to compare across the US states.  The information is pulled from an API and into a SQL database, then called through Python, Flask, and JavaScript to the website.
+
+![Calendar Heatmap](/presentation/calendar.png "Calendar Heatmap")
 
 The project was part of the Fall 2020 University of Minnesota Data Analytics & Visualization Bootcamp and utilized environments created for that course.
 
